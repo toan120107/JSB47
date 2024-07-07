@@ -1,0 +1,67 @@
+.big{
+    /* border:2px solid red; */
+    width:400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+}
+.image img{
+    width:100px;
+}
+.image{
+    text-align: center;
+}
+.tg{
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 10px;
+}
+.tg h1{
+    font-weight:300;
+    color:rgb(54, 45, 45);
+}
+.follow button{
+    height:50px;
+    width:120px;
+    color:rgb(0, 89, 255);
+    border: 2px solid rgb(0, 89, 255);
+    font-size: 13px;
+    background-color: white;   
+    border-radius: 5px; 
+}
+.fl{
+    text-align: center;
+}
+.text p{
+    color:rgb(0, 89, 255);
+    font-family:Helvetica,Arial,sans-serif;
+}
+.text{
+    text-align: center;
+}
+.text2 p{
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color:rgb(51, 45, 45);
+}
+.text2{
+    text-align: center;
+}
+.quin{
+    color:rgb(0, 89, 255);
+    font-family: Helvetica,Arial,sans-serif;
+}
+.ax{
+    font-family: Helvetica,Arial,sans-serif;
+    margin-left: 5px;
+}
+.qax{
+    display: flex;
+    justify-content: center;
+}
+.imgs img{
+    width:35px;
+    margin:5px
+}
+.imgt{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,37 @@
+.two{
+    color:blue
+}
+h1{
+    color:red
+}
+h2{
+    color:chartreuse
+}
+h3{
+    color:aqua
+}
+#toan{
+    color:blueviolet
+}
+h2{
+    background-color: blue;
+}
+body{
+    background-color: darkorange;
+    text-align: center;
+}
+h1{
+    text-decoration:underline
+}
+.fwb{
+    font-weight:bold;
+}
+h3{
+    border: 4px inset black
+}
+img{
+    width: 500px;
+    border-radius: 20%;
+    height:500px
+}
+

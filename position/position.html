@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+        h1 {
+            /* margin-top: 100px; */
+            /* position: relative; */
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Khi ta dùng position thì các thuộc tình top, left, right, bottom */
+
+        /* position: relative
+        - Di chuyển thẻ và ko làm ảnh hưởng đế các thẻ khác
+        - Di chuyển 1 khối mà k làm ảnh hưởng đến dòng chảy của trang
+      */
+
+        /* 
+        position: absolute
+        - Tách khối đấy ra dòng chảy của trang web
+        - Những thẻ sau nó sẽ thế vào chỗ trống nó để lại
+      */
+
+        .container {
+            width: 600px;
+            height: 500px;
+            background-color: antiquewhite;
+            position: relative;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+
+        .box1 {
+            position: absolute;
+            right: 0px;
+            top: 0;
+            background-color: rgb(245, 40, 40);
+        }
+
+        .box2 {
+            background-color: rgb(67, 67, 243);
+            position: absolute;
+            bottom: 0px;
+
+        }
+
+        .box3 {
+            background-color: rgb(59, 236, 59);
+            position: absolute;
+        }
+
+        .box4 {
+            background-color: #f5a360;
+            position: absolute;
+            right:0px;
+            bottom:0px
+        }
+        .box5 {
+            background-color: rgb(240, 243, 86);
+            position: absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <p>Position</p>
+    <h1>Nguyễn Song Toàn</h1>
+    <ul>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>static</li>
+    </ul>
+
+    <div class="container">
+
+        <div class="box1 box">1</div>
+        <div class="box2 box">2</div>
+        <div class="box3 box">3</div>
+        <div class="box4 box">4</div>
+        <div class="box5 box">5</div>
+    </div>
+</body>
+
+</html>

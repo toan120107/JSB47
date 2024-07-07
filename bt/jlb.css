@@ -1,0 +1,38 @@
+.product{
+    width:300px;
+    min-height: 400px;
+    padding: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.product image{
+    width:100%;
+    
+}
+.product img{
+    width:100%;
+    
+}
+.product img:hover{
+    width: 110%;
+}
+.product.product_detail{
+    padding: 5px;
+}
+.product_detail .comboname_price b:nth-child(2){
+    color:red;
+    margin-left: 110px;
+}
+.product_detail button {
+    width:100%;
+    padding: 14px 0;
+    border-radius: 25px;
+    border-style: none;
+    margin-top:30px;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    
+
+}

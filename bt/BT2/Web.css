@@ -1,0 +1,66 @@
+.Web {
+    padding-top: 404px;
+    padding-bottom: 253px;
+    padding-left: 270px;
+    padding-right: 300px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.Web button {
+    background-color: rgb(62, 237, 170);
+  width: 390px;
+  min-height: 50px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+.Web input{
+    width: 350px;
+    min-height: 20px;
+   padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block
+}
+.Web h1{
+    padding-left: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.Web img{
+    width: 20px;
+    min-height: 20px;
+    border-radius: 50%;
+  border: 1px solid white;
+  
+}
+.web {
+    display: inline-block;
+    
+}
+.Web p{
+    padding-left: 0px;
+    cursor: pointer;
+}
+.webT{
+    display: inline-block;
+    background-color: rgb(20, 177, 117);
+    padding-top: 490px;
+    padding-bottom: 312px;
+    padding-right: 230px;
+    padding-left: 143px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: static;
+    vertical-align: 70px;
+    
+}
+.webT button{
+    border-radius: 50px;
+    padding: 10px;
+color: white;
+background-color: rgb(20, 177, 117);
+cursor: pointer;
+}

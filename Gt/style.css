@@ -1,0 +1,13 @@
+.zoom {
+    color: red
+}
+
+body {
+    text-align: center;
+    background-color: blanchedalmond
+}
+
+img {
+    border-radius: 50%;
+    border: 4px inset black
+}
