@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+.background {
+    background-color: black;
+    width: 700px;
+    height: 984px;
+}
+.image img{
+    width: 500px;
+    height: 550px;
+    border-radius: 30px;
+    margin-top: 40px
+}
+.it{
+    color:white;
+    font-size: 40px;
+
+}
+.it2{
+    color:white;
+    font-size: 40px;
+}
+.it2 button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.fa-user-minus{
+    margin-left: 370px;
+}
+.it2 button{
+    margin-left:150px;
+}
+.fa-rotate-right{
+    margin-left:150px;
+    margin-top: 90px;
+}
+.it i{
+    margin-top: 90px;
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+
+.bigbox {
+    background-image: url(https://tlauncher.org/res/templates/tlauncher/images/index_header_bg.jpg);
+    background-size: cover;
+    height: 270px;
+    padding-top: 2px;
+   
+}
+
+.bigbox1 {
+    background-image: url(https://tlauncher.org/res/templates/tlauncher/images/main_bg.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    
+
+
+}
+
+.icon1 {
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-left: 300px;
+    width: 20%;
+    color: white;
+    position: absolute;
+    font-size: small;
+    font-family: Calibri;
+    margin-top: 60px;
+
+
+}
+
+.icon1 button {
+    font-size: 15px;
+    border-radius: 20px;
+    color: #337ab7;
+    background-color: white;
+    border: none;
+    position: relative;
+    top: 14%
+}
+
+.text1 {
+    margin-left: 20px;
+}
+
+.big1 {
+    display: flex;
+    margin-left: 45%;
+    margin-top: 60px;
+}
+
+.big2 {
+    display: flex;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.color {
+    margin-left: 20px;
+    font-family: calibri;
+    font-size: medium;
+}
+
+.color a {
+    color: white;
+    text-decoration: none;
+    font-family: calibri;
+}
+
+.Line {
+    margin: 25px 0 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #58a3bd;
+}
+
+.big3 {
+    margin-left: 16%;
+    margin-top: 18px;
+    display: flex;
+}
+
+.lg2 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.lg1 {
+
+    margin-left: 20px;
+}
+.paragraph{
+    background: url(https://demoda.vn/wp-content/uploads/2022/01/hinh-nen-mau-xam-don-gian-va-nhe-nhang-cho-laptop.jpg);
+    height: 540px;
+}
+.footer {
+    background-image: url(https://tlauncher.org/res/templates/tlauncher/images/index_footer_bg.jpg);
+    color: white;
+    padding-top: 20px;
+}
+
+.ft1 img {
+    margin-top: 30px;
+}
+
+.footer {
+    padding-bottom: 10px;
+}
+
+.footer hr {
+    margin: 25px 0 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #58a3bd;
+
+}
+
+.f span {
+    margin-left: 340px;
+}
+
+.big2 :hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.big1 :hover {
+    color: yellow;
+    text-decoration: underline;
+}
+.sign{
+    margin-left: 55%;
+    position: absolute;
+    top:18%;
+    margin-left: 65%;
+    
+}
+.sign button{
+    border:none;
+    height: 40px;
+    width: 90px;
+    border-radius: 40px;
+    font-family: Calibri;
+    font-size: 18px;
+    color:White;
+    background-color:transparent;
+}
+.sign button:hover{
+    border: solid 0.5px #9cc5d5;
+    cursor: pointer;
+}
+.iconlog{
+    background: url(https://tlauncher.org/res/templates/tlauncher/images/lock-ico.png) no-repeat 9px 1px;
+}
+.iconen{
+    background: url(https://tlauncher.org/res/templates/tlauncher/images/lang-ico.png) no-repeat -3.5px -35px;
+}
+.pgh{
+    width: 70%;
+    margin-left: 350px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: Calibri;
+}

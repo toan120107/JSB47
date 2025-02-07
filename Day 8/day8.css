@@ -1,0 +1,15 @@
+.hover_div {
+    width: 100px;
+    background-color: yellow;
+    transition: all 2s;
+}
+
+.hover_div:hover {
+    cursor: pointer;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    /* transition-property: background-color, width;
+    transition-duration: 2s, 5s;
+    transition-timing-function: ease; */
+}

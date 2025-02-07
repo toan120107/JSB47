@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bigbox {
+    background-image: url(https://tlauncher.org/res/templates/tlauncher/images/index_header_bg.jpg);
+    background-size: cover;
+    height: 270px;
+    padding-top: 2px;
+}
+
+.bigbox1 {
+    background-image: url(https://tlauncher.org/res/templates/tlauncher/images/main_bg.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+
+
+
+}
+
+.icon1 {
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-left: 300px;
+    width: 20%;
+    color: white;
+    position: absolute;
+    font-size: small;
+    font-family: Calibri;
+    margin-top: 60px;
+
+
+}
+
+.icon1 button {
+    font-size: 15px;
+    border-radius: 20px;
+    color: #337ab7;
+    background-color: white;
+    border: none;
+    position: relative;
+    top: 14%
+}
+
+.text1 {
+    margin-left: 20px;
+}
+
+.big1 {
+    display: flex;
+    margin-left: 45%;
+    margin-top: 60px;
+}
+
+.big2 {
+    display: flex;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.color {
+    margin-left: 20px;
+    font-family: calibri;
+    font-size: medium;
+}
+
+.color a {
+    color: white;
+    text-decoration: none;
+    font-family: calibri;
+}
+
+.Line {
+    margin: 25px 0 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #58a3bd;
+}
+
+.big3 {
+    margin-left: 16%;
+    margin-top: 18px;
+    display: flex;
+}
+
+.lg2 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.lg1 {
+
+    margin-left: 20px;
+}
+
+.footer {
+    background-image: url(https://tlauncher.org/res/templates/tlauncher/images/index_footer_bg.jpg);
+    color: white;
+    padding-bottom: 20px;
+}
+
+.ft1 img {
+    margin-top: 30px;
+}
+
+
+
+.footer hr {
+    margin: 25px 0 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #58a3bd;
+
+}
+
+.f span {
+    margin-left: 340px;
+}
+.footer2{
+    text-decoration: none;
+}
+
+.big2 :hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.big1 :hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.sq {
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 500px;
+    /* background-image: url(https://tlauncher.org/res/templates/tlauncher/images/reg_form_bg.jpg); */
+    margin-left: 320px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+}
+
+.sp1 {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 85px;
+    line-height: 84px;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url(https://tlauncher.org/res/templates/tlauncher/images/regform_header_bg.jpg);
+    font-family: calibri;
+}
+
+.sp1 h2 {
+    color: white;
+}
+
+.texture {
+    position: absolute;
+    right: 0;
+    margin-right: 32%;
+    top: 270px
+}
+
+.texture h1 {
+    color: #cf5b5b;
+    font-size: 95px;
+    font-weight: bold;
+    font-family: calibri;
+
+}
+
+.list li {
+    display: block;
+    height: 60px;
+    line-height: 58px;
+    padding-left: 45px;
+    background: url(https://tlauncher.org/res/templates/tlauncher/images/list_ico.png);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    position: relative;
+    right: 35px;
+    bottom: 5px;
+    font-family: calibri;
+}
+
+/* .input{
+    border: solid 1px #9cc5d5;
+    
+} */
+.bigken {
+    display: flex;
+    font-family: calibri;
+    padding: 15px 7px;
+}
+
+.forken1 {
+    margin-left: 25px;
+}
+
+.bigken input {
+    border: solid 1px #9cc5d5;
+    border-radius: 4px;
+    min-height: 50px;
+    width:160%;
+    box-shadow: inset 1px 2px 1px rgba(0, 0, 0, 0.14);
+    padding-left: 12px;
+    font-size: medium;
+}
+
+.forken {
+    margin-left: 40px;
+}
+
+.images img {
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.check {
+    margin-left: 134px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.biglabel span {
+    position: absolute;
+    bottom: 34.5%;
+    margin-left: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    ;
+}
+
+.check input {
+    width: 20px;
+    height: 20px;
+}
+
+.biginput {
+    display: flex;
+}
+
+.biglabel a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-top: 200px;
+}
+
+.biglabel a:hover {
+    text-decoration: underline;
+    color: blue
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: rgba(250, 63, 63, 0.849);
+    cursor: pointer;
+}
+
+.buttons button {
+    height: 54px;
+    width: 170px;
+    border-radius: 40px;
+    font-family: Calibri;
+    font-size: 20px;
+    color: rgba(250, 63, 63, 0.849);
+    background-color: white;
+    border: none;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+.sign {
+    margin-left: 55%;
+    position: absolute;
+    top: 18%;
+    margin-left: 65%;
+
+}
+
+.sign button {
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 40px;
+    font-family: Calibri;
+    font-size: 18px;
+    color: White;
+    background-color: transparent;
+}
+
+.sign button:hover {
+    border: solid 0.5px #9cc5d5;
+    cursor: pointer;
+}
+
+.iconlog {
+    background: url(https://tlauncher.org/res/templates/tlauncher/images/lock-ico.png) no-repeat 9px 1px;
+}
+
+.iconen {
+    background: url(https://tlauncher.org/res/templates/tlauncher/images/lang-ico.png) no-repeat -3.5px -35px;
+}
+
